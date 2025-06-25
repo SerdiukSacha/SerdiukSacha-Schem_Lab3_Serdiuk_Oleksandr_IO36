@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+dD:\ModelSim\modelsim_ase\examples\Lab5_Serdiuk
+vbitsum
+I?onR?e9BCilBI2U=0bR][3
+VoP[l9T3VZUFhB_K0?dFLk2
+Z0 dD:\ModelSim\modelsim_ase\examples\Lab6_Serdiuk
+w1750775609
+8D:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/bitsum.v
+FD:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/bitsum.v
+L0 2
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 2C7NoZ8h4bZP9P?h@5]FS0
+!s85 0
+!s101 -O0
+vref_sum4bit
+IJoAG4a31Ya5L@JkZ^P<Hg1
+V?IU]SmgXnM2ENCZ;?zgIE0
+Z4 dD:\ModelSim\modelsim_ase\examples\Lab6_Serdiuk
+w1750775705
+8D:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/ref_sum4bit.v
+FD:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/ref_sum4bit.v
+L0 2
+R1
+r1
+31
+R2
+R3
+!s100 SDemMjfJC2NVWNigU9>_22
+!s85 0
+!s101 -O0
+vref_sum6bit
+I]jO_iiD6Zm9XOkb3KlVWM0
+V`d]fWkANK`hi<AfcHlnQl2
+R4
+w1750775722
+8D:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/ref_sum6bit.v
+FD:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/ref_sum6bit.v
+L0 2
+R1
+r1
+31
+R2
+R3
+!s100 CfiBDPZnAeIGAlY[7]4Gb2
+!s85 0
+!s101 -O0
+vsum4bit
+Ij?2[RYU<B32Kh_^^GYLAH1
+V@Qm>k=EiZ^EADGFN7_PoF2
+R4
+w1750775652
+8D:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/sum4bit.v
+FD:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/sum4bit.v
+L0 2
+R1
+r1
+31
+R2
+R3
+!s100 b:GYiSc8az5[69Y1LTn6c1
+!s85 0
+!s101 -O0
+vsum6bit
+IDIG1TR8`;k>Y555n^^XoD3
+V=noYQReUXe6IgbA<jC:K12
+R4
+w1750775672
+8D:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/sum6bit.v
+FD:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/sum6bit.v
+L0 2
+R1
+r1
+31
+R2
+R3
+!s100 IC^X6VaOIYa_N[B=nYPRZ1
+!s85 0
+!s101 -O0
+vtb_sum4bit
+I2n8F[1[IK]A4=OezS6K9V2
+V1W;GYlUYjhS[Yl6NB1]f81
+R4
+w1750776480
+Z5 8D:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/tb_sum4bit.v
+Z6 FD:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/tb_sum4bit.v
+L0 3
+R1
+r1
+31
+R2
+R3
+!s100 AIbS8QCmZMW8oHTPa>@_i2
+!s85 0
+!s101 -O0
+vtb_sum4bit_basic
+I0E^?41OOCM5_Bo:aU=T;o0
+VP1``FE3Nmf26c:H<a:6a71
+R4
+w1750776026
+R5
+R6
+L0 3
+R1
+r1
+31
+R2
+R3
+!s100 l_Moc>19AWnbC3`6`zCHQ1
+!s85 0
+!s101 -O0
+vtb_sum6bit
+!s100 4Y1989ib4PDJdfC[4WR992
+ImoY`G0n`BlQ_;>B9W;S_]3
+VOPAW;BCeD>5h4U>6o=:1l2
+R4
+w1750776450
+Z7 8D:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/tb_sum6bit.v
+Z8 FD:/ModelSim/modelsim_ase/examples/Lab6_Serdiuk/tb_sum6bit.v
+L0 3
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+vtb_sum6bit_basic
+I=Lmk3iZPW_^JAS9[2JkZY2
+ViTXBbiJJBE?k[9O]MLK=o0
+R4
+w1750776074
+R7
+R8
+L0 3
+R1
+r1
+31
+R2
+R3
+!s100 VXjVSW=^L=WOQHiFd?8Ad3
+!s85 0
+!s101 -O0

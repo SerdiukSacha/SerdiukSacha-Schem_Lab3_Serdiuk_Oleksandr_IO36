@@ -1,0 +1,40 @@
+`timescale 1ns/1ps
+
+module tb_sum6bit;
+
+    reg  [5:0] A, B;
+    reg        cin;
+    wire [5:0] S_dut, S_ref;
+    wire       cout_dut, cout_ref;
+
+    sum6bit     dut (.A(A), .B(B), .cin(cin), .S(S_dut), .cout(cout_dut));
+    ref_sum6bit ref (.A(A), .B(B), .cin(cin), .S(S_ref), .cout(cout_ref));
+
+    initial begin
+        $dumpfile("sum6bit.vcd");
+        $dumpvars(0, tb_sum6bit);
+    end
+
+    task apply_and_print;
+        input [5:0] a, b;
+        input       c;
+        begin
+            {A, B, cin} = {a, b, c};
+            #5;
+            $display(" %b  %b  %b | %b %b | %b %b | %s",
+                     a, b, c, S_dut, cout_dut, S_ref, cout_ref,
+                     ({cout_dut, S_dut} == {cout_ref, S_ref}) ? "OK" : "FAIL");
+        end
+    endtask
+
+    initial begin
+        $display("      A        B  c |    S  co | refS refC | STATUS");
+        $display("---------------------------------------------------");
+        apply_and_print(6'b000000, 6'b000000, 1'b0); // 0+0
+        apply_and_print(6'b000101, 6'b001011, 1'b0); // 5+11
+        apply_and_print(6'b111111, 6'b000001, 1'b0); // 63+1
+        apply_and_print(6'b101010, 6'b010101, 1'b1); // 42+21+cin
+        $display("---------------------------------------------------");
+        $finish;
+    end
+endmodule
